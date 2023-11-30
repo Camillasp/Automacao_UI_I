@@ -1,0 +1,23 @@
+{
+  "name": "teste-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"npx cypress open", 
+    "cypress: run": "npx cypress run", 
+    "cypress: dashboard": "",
+    "cypress: report": ""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1"
+  }
+}
